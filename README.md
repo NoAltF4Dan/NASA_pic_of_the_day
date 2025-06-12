@@ -27,8 +27,14 @@ A simple Python application that fetches and displays NASA's Astronomy Picture o
 
 ## API Key
 
-The script uses NASA’s public `DEMO_KEY`. For higher rate limits, get your own API key here:  
-🔗 [https://api.nasa.gov](https://api.nasa.gov)
+This project uses NASA's Astronomy Picture of the Day (APOD) API.
+
+A free demo API key (`DEMO_KEY`) is available from NASA and can be used without registration:  
+🔗 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+
+However, for more stability and higher request limits, it's recommended to register and get your own API key at:  
+🔗 https://api.nasa.gov
+
 
 You can export your key as an environment variable:
 
